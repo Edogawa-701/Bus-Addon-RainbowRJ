@@ -1,0 +1,70 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mtc:mtc043735_1",
+            "materials": {
+                "default": "phantom",
+                "invisible": "phantom_invisible"
+            },
+            "textures": {
+                "default": "textures/entity/mtc043735_1"
+            },
+            "geometry": {
+                "default": "geometry.c_mtc043735_1"
+            },
+            "animations": {
+                "revinv": "animation.mtc043735_1.revinv",
+                "ani1": "animation.mtc043735_1.ani1",
+                "ani2": "animation.mtc043735_1.ani2",
+                "wiper": "animation.mtc043735_1.wiper",
+                "open_right": "animation.mtc043735_1.open_right",
+                "open_left": "animation.mtc043735_1.open_left",
+                "close_right": "animation.mtc043735_1.close_right",
+                "close_left": "animation.mtc043735_1.close_left",
+                "mode1": "animation.mtc043735_1.mode1",
+                "mode2": "animation.mtc043735_1.mode2",
+                "mode3": "animation.mtc043735_1.mode3",
+                "mode4": "animation.mtc043735_1.mode4",
+                "mode5": "animation.mtc043735_1.mode5",
+                "mode6": "animation.mtc043735_1.mode6",
+                "mode7": "animation.mtc043735_1.mode7",
+                "mode8": "animation.mtc043735_1.mode8",
+                "mas_b8": "animation.mtc043735_1.Mas_B8",
+                "mas_b7": "animation.mtc043735_1.Mas_B7",
+                "mas_b6": "animation.mtc043735_1.Mas_B6",
+                "mas_b5": "animation.mtc043735_1.Mas_B5",
+                "mas_b4": "animation.mtc043735_1.Mas_B4",
+                "mas_b3": "animation.mtc043735_1.Mas_B3",
+                "mas_b2": "animation.mtc043735_1.Mas_B2",
+                "mas_b1": "animation.mtc043735_1.Mas_B1",
+                "mas_nc": "animation.mtc043735_1.Mas_NC",
+                "mas_p1": "animation.mtc043735_1.Mas_P1",
+                "mas_p2": "animation.mtc043735_1.Mas_P2",
+                "mas_p3": "animation.mtc043735_1.Mas_P3",
+                "mas_p4": "animation.mtc043735_1.Mas_P4"
+            },
+            "animation_controllers": [
+                {
+                    "mtc043735_1_controller1": "controller.animation.mtc043735_1.mtc043735_1_ct1"
+                },
+                {
+                    "mtc043735_1_controller2": "controller.animation.mtc043735_1.mtc043735_1_ct2"
+                },
+                {
+                    "mtc043735_1_controller4": "controller.animation.mtc043735_1.mtc043735_1_ct4"
+                },
+                {
+                    "mtc043735_1_controller5": "controller.animation.mtc043735_1.mtc043735_1_ct5"
+                }
+            ],
+            "render_controllers": [
+                "controller.render.phantom"
+            ],
+            "spawn_egg": {
+                "texture": "spawn_mtc043735",
+                "texture_index": 0
+            }
+        }
+    }
+}

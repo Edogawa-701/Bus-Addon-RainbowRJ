@@ -1,0 +1,217 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mtc043735_1": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "open": "query.variant >= 1 && query.variant <= 3"
+                        }
+                    ]
+                },
+                "open": {
+                    "transitions": [
+                        {
+                            "default": "query.variant >= 11 && query.variant <= 13"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function mtc/testSound",
+                        "/playsound mtc043735_open @a[r=32,scores={mtc_sid=0}] ~ ~ ~ 10"
+                    ],
+                    "on_exit": [
+                        "/function mtc/testSound",
+                        "/playsound mtc043735_close @a[r=32,scores={mtc_sid=0}] ~ ~ ~ 10"
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc043735_1_trace": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "next": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/execute if score tick10 mtc_global <= c1 mtc_global run function mtc043735/tick10"
+                    ]
+                },
+                "next": {
+                    "transitions": [
+                        {
+                            "default": "1"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc043735_1_spawn": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "next": "1"
+                        }
+                    ]
+                },
+                "next": {
+                    "transitions": [
+                        {
+                            "loop1": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/execute unless entity @s[tag=mtc_init] run function mtc043735/initTrain"
+                    ]
+                },
+                "loop1": {
+                    "transitions": [
+                        {
+                            "loop2": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/execute if entity @s[tag=mtc_air1] run function mtc043735/break1",
+                        "/execute if entity @s[tag=mtc_air2] run function mtc043735/break2"
+                    ]
+                },
+                "loop2": {
+                    "transitions": [
+                        {
+                            "loop1": "1"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.mtc043735_1_bz": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "next": "1"
+                        }
+                    ]
+                },
+                "next": {
+                    "transitions": [
+                        {
+                            "w1": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/execute if entity @s[tag=mtc_rev] run playsound mtc043735_back @a[r=32] ~~~ 10"
+                    ]
+                },
+                "w1": {
+                    "transitions": [
+                        {
+                            "w2": "1"
+                        }
+                    ]
+                },
+                "w2": {
+                    "transitions": [
+                        {
+                            "w3": "1"
+                        }
+                    ]
+                },
+                "w3": {
+                    "transitions": [
+                        {
+                            "w4": "1"
+                        }
+                    ]
+                },
+                "w4": {
+                    "transitions": [
+                        {
+                            "w5": "1"
+                        }
+                    ]
+                },
+                "w5": {
+                    "transitions": [
+                        {
+                            "w6": "1"
+                        }
+                    ]
+                },
+                "w6": {
+                    "transitions": [
+                        {
+                            "w7": "1"
+                        }
+                    ]
+                },
+                "w7": {
+                    "transitions": [
+                        {
+                            "w8": "1"
+                        }
+                    ]
+                },
+                "w8": {
+                    "transitions": [
+                        {
+                            "w9": "1"
+                        }
+                    ]
+                },
+                "w9": {
+                    "transitions": [
+                        {
+                            "w10": "1"
+                        }
+                    ]
+                },
+                "w10": {
+                    "transitions": [
+                        {
+                            "w11": "1"
+                        }
+                    ]
+                },
+                "w11": {
+                    "transitions": [
+                        {
+                            "w12": "1"
+                        }
+                    ]
+                },
+                "w12": {
+                    "transitions": [
+                        {
+                            "w13": "1"
+                        }
+                    ]
+                },
+                "w13": {
+                    "transitions": [
+                        {
+                            "w14": "1"
+                        }
+                    ]
+                },
+                "w14": {
+                    "transitions": [
+                        {
+                            "w15": "1"
+                        }
+                    ]
+                },
+                "w15": {
+                    "transitions": [
+                        {
+                            "default": "1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

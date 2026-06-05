@@ -1,0 +1,609 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mtc043735_1.revinv": {
+			"loop": "hold_on_last_frame"
+		},
+		"animation.mtc043735_1.ani1": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"fogoff": {
+					"position": [-0.25, 0, 0]
+				},
+				"fogon": {
+					"position": [0.25, 0, 0]
+				},
+				"mupojileft": {
+					"position": [0, 0, 1.5]
+				},
+				"mupojiright": {
+					"position": [0, 0, -1.5]
+				},
+				"foglightoff": {
+					"position": [1, 0, 0]
+				},
+				"foglighton": {
+					"position": [-1, 0, 0]
+				},
+				"pojifogleft": {
+					"position": [0, 0, -1.5]
+				},
+				"pojifogright": {
+					"position": [0, 0, 1.5]
+				},
+				"rearlightfog": {
+					"position": [1, 0, 0]
+				},
+				"rearlightmutenjin": {
+					"position": [-1, 0, 0]
+				},
+				"roadsidelightoff_left": {
+					"position": [0, 0, 0.5]
+				},
+				"roadsidelightoff_right": {
+					"position": [0, 0, -0.5]
+				},
+				"roadsidelighton_right": {
+					"position": [0, 0, 0.5]
+				},
+				"roadsidelighton_left": {
+					"position": [0, 0, -0.5]
+				},
+				"poji_off_left": {
+					"position": [-1, 0, 0]
+				},
+				"poji_off_right": {
+					"position": [1, 0, 0]
+				},
+				"poji_fog_on_left": {
+					"position": [1, 0, 0]
+				},
+				"poji_fog_on_right": {
+					"position": [-1, 0, 0]
+				},
+				"poji_low_on_right": {
+					"position": [1, 0, 0]
+				},
+				"poji_low_on_left": {
+					"position": [-1, 0, 0]
+				},
+				"foglight_on": {
+					"position": [0, 0, -1]
+				},
+				"foglight_off": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.ani2": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"lowoff": {
+					"position": [-0.25, 0, 0]
+				},
+				"lowon": {
+					"position": [0.25, 0, 0]
+				},
+				"mupojileft": {
+					"position": [0, 0, 1.5]
+				},
+				"mupojiright": {
+					"position": [0, 0, -1.5]
+				},
+				"pojilowleft": {
+					"position": [0, 0, -1.5]
+				},
+				"pojilowright": {
+					"position": [0, 0, 1.5]
+				},
+				"rearlightrow": {
+					"position": [1, 0, 0]
+				},
+				"rearlightmutenjin": {
+					"position": [-1, 0, 0]
+				},
+				"lowlighton": {
+					"position": [0, 0, -1]
+				},
+				"lowlightoff": {
+					"position": [0, 0, 1]
+				},
+				"poji_off_left": {
+					"position": [-1, 0, 0]
+				},
+				"poji_off_right": {
+					"position": [1, 0, 0]
+				},
+				"poji_low_on_right": {
+					"position": [-1, 0, 0]
+				},
+				"poji_low_on_left": {
+					"position": [1, 0, 0]
+				}
+			}
+		},
+		"animation.mtc043735_1.open_left": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3.4167,
+			"bones": {
+				"door_front": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, -2.5, 0],
+						"1.0833": {
+							"pre": [0, -50, 0],
+							"post": [0, -50, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [0, -50, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5417": [0, -90, 0],
+						"2.75": [0, -90, 0]
+					}
+				},
+				"door_front_2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, 5, 0],
+						"1.0833": {
+							"pre": [0, 100, 0],
+							"post": [0, 100, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [0, 100, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5417": [0, 177.5, 0],
+						"2.6667": [0, 176.5, 0],
+						"2.75": [0, 177.5, 0]
+					}
+				},
+				"cylinder_front": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, -0.25, 0],
+						"1.0833": [0, -7.75, 0],
+						"1.5": [0, -7.75, 0],
+						"2.5417": {
+							"pre": [0, 2.25, 0],
+							"post": [0, 2.25, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"cylinder_piston": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, 0, -0.1],
+						"1.0833": {
+							"pre": [0, 0, -1.6],
+							"post": [0, 0, -1.6],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [0, 0, -1.6],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5417": {
+							"post": [0, 0, -2.9],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.mtc043735_1.open_right": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"bones": {
+				"center": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 0],
+						"2.25": [-14.5, 0, 0],
+						"3.0": [-16, 0, 0]
+					}
+				},
+				"door_center": {
+					"position": {
+						"0.6667": [0, 0, 0],
+						"1.75": {
+							"pre": [0, 0, -14],
+							"post": [0, 0, -14],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [0, 0, -14.75],
+							"lerp_mode": "catmullrom"
+						},
+						"2.75": [0, 0, -15.75]
+					}
+				}
+			}
+		},
+		"animation.mtc043735_1.close_left": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 4.1667,
+			"bones": {
+				"door_front": {
+					"rotation": {
+						"0.0": [0, -90, 0],
+						"0.5": {
+							"pre": [0, -45, 0],
+							"post": [0, -45, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0417": [0, -20, 0],
+						"1.0833": [0, -20, 0],
+						"1.5417": [0, -10, 0],
+						"1.7917": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"door_front_2": {
+					"rotation": {
+						"0.0": [0, 177.5, 0],
+						"0.5": {
+							"pre": [0, 90, 0],
+							"post": [0, 90, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0417": [0, 40, 0],
+						"1.0833": [0, 40, 0],
+						"1.5417": [0, 20, 0],
+						"1.7917": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"cylinder_front": {
+					"rotation": {
+						"0.0": [0, 2.25, 0],
+						"0.5": {
+							"pre": [0, -7.46, 0],
+							"post": [0, -7.46, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0417": [0, -4.96, 0],
+						"1.0833": [0, -4.96, 0],
+						"1.5417": [0, -2.46, 0],
+						"1.7917": [0, 0, 0]
+					}
+				},
+				"cylinder_piston": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, -2.9],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0, 0, -1.5],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0417": {
+							"post": [0, 0, -0.65],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [0, 0, -0.3],
+							"lerp_mode": "catmullrom"
+						},
+						"1.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.mtc043735_1.close_right": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.8,
+			"bones": {
+				"center": {
+					"position": {
+						"0.0": [-16, 0, 0],
+						"1.0": [-16, 0, 0],
+						"2.0": [-1, 0, 0],
+						"2.5": [-0.75, 0, 0],
+						"2.8": [0, 0, 0]
+					}
+				},
+				"door_center": {
+					"position": {
+						"0.0": [0, 0, -15.75],
+						"1.0": [0, 0, -15.75],
+						"1.8": {
+							"pre": [0, 0, -2.5],
+							"post": [0, 0, -2.5],
+							"lerp_mode": "catmullrom"
+						},
+						"2.2": {
+							"post": [0, 0, -2],
+							"lerp_mode": "catmullrom"
+						},
+						"2.6": [0, 0, 0],
+						"2.7": [0, 0, -0.25],
+						"2.8": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mtc043735_1.mode1": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm1": {
+					"position": [0, 0, -1]
+				},
+				"rm1": {
+					"position": [1, 0, 0]
+				},
+				"side_maku1": {
+					"position": [1, 0, 0]
+				},
+				"fm1": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku1": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode2": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm2": {
+					"position": [0, 0, -1]
+				},
+				"rm2": {
+					"position": [1, 0, 0]
+				},
+				"side_maku2": {
+					"position": [1, 0, 0]
+				},
+				"fm2": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku2": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode3": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm3": {
+					"position": [0, 0, -1]
+				},
+				"rm3": {
+					"position": [1, 0, 0]
+				},
+				"side_maku3": {
+					"position": [1, 0, 0]
+				},
+				"fm3": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku3": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode4": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm4": {
+					"position": [0, 0, -1]
+				},
+				"rm4": {
+					"position": [1, 0, 0]
+				},
+				"side_maku4": {
+					"position": [1, 0, 0]
+				},
+				"fm4": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku4": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode5": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm4": {
+					"position": [0, 0, 0]
+				},
+				"sm5": {
+					"position": [0, 0, -1]
+				},
+				"rm4": {
+					"position": [0, 0, 0]
+				},
+				"rm5": {
+					"position": [1, 0, 0]
+				},
+				"side_maku5": {
+					"position": [1, 0, 0]
+				},
+				"fm5": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku5": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode6": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm6": {
+					"position": [0, 0, -1]
+				},
+				"rm6": {
+					"position": [1, 0, 0]
+				},
+				"side_maku6": {
+					"position": [1, 0, 0]
+				},
+				"fm6": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku6": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode7": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm7": {
+					"position": [0, 0, -1]
+				},
+				"rm7": {
+					"position": [1, 0, 0]
+				},
+				"side_maku7": {
+					"position": [1, 0, 0]
+				},
+				"fm7": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku7": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.mode8": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"sm8": {
+					"position": [0, 0, -1]
+				},
+				"rm8": {
+					"position": [1, 0, 0]
+				},
+				"side_maku8": {
+					"position": [1, 0, 0]
+				},
+				"fm8": {
+					"position": [0, 0, -1]
+				},
+				"rear_maku8": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.mtc043735_1.wiper": {
+			"loop": true,
+			"animation_length": 2.5,
+			"bones": {
+				"wiper1_1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [5, 0, 0],
+						"0.8333": [75, 0, 0],
+						"1.0": [80, 0, 0],
+						"1.25": [80, 0, 0],
+						"1.4167": [75, 0, 0],
+						"2.0833": [5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"wiper1_3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [-5, 0, 0],
+						"0.8333": [-75, 0, 0],
+						"1.0": [-80, 0, 0],
+						"1.25": [-80, 0, 0],
+						"1.4167": [-75, 0, 0],
+						"2.0833": [-5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"wiper1_2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [5, 0, 0],
+						"0.8333": [75, 0, 0],
+						"1.0": [80, 0, 0],
+						"1.25": [80, 0, 0],
+						"1.4167": [75, 0, 0],
+						"2.0833": [5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"wiper1_4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [-5, 0, 0],
+						"0.8333": [-75, 0, 0],
+						"1.0": [-80, 0, 0],
+						"1.25": [-80, 0, 0],
+						"1.4167": [-75, 0, 0],
+						"2.0833": [-5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"wiper1_5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [5, 0, 0],
+						"0.8333": [75, 0, 0],
+						"1.0": [80, 0, 0],
+						"1.25": [80, 0, 0],
+						"1.4167": [75, 0, 0],
+						"2.0833": [5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"wiper1_6": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [-5, 0, 0],
+						"0.8333": [-75, 0, 0],
+						"1.0": [-80, 0, 0],
+						"1.25": [-80, 0, 0],
+						"1.4167": [-75, 0, 0],
+						"2.0833": [-5, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mtc043735_1.Mas_B4": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_B3": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_B2": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_B1": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_NC": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_P1": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_P2": {
+			"loop": true
+		},
+		"animation.mtc043735_1.Mas_P3": {
+			"loop": true
+		}
+	}
+}

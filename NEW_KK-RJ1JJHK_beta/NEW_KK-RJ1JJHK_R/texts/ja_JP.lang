@@ -1,0 +1,15 @@
+item.spawn_egg.entity.mtc:mtc043735_1.name=MTC Bus V2 日野レインボーRJ
+
+action.hint.exit.mtc:mtc043735_1=ジャンプで降りる
+
+mtc:mtc043735.Mode1=モード1	＃
+mtc:mtc043735.Mode2=モード2	＃
+mtc:mtc043735.Mode3=モード3	＃
+mtc:mtc043735.Mode4=モード4	＃
+mtc:mtc043735.Mode5=モード5	＃
+mtc:mtc043735.Mode6=モード6	＃
+mtc:mtc043735.Mode7=モード7	＃
+mtc:mtc043735.Mode8=モード8	＃
+
+mtc:mtc043735.Ani1=フォグ	＃
+mtc:mtc043735.Ani2=ロービーム	＃

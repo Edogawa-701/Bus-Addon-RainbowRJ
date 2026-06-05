@@ -1,0 +1,15 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "mtc:mtc043735_1": {
+        "events": {
+          "step": {
+            "sound": "",
+            "volume": 0.0,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

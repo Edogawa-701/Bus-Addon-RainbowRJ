@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ver.3.0.0",
+        "name": "MTC Bus V2 日野レインボーRJ KK-RJ1JJHK(B)",
+        "uuid": "e763be35-0535-4c25-a8fd-ffac9e087fc0",
+        "version": [3, 0, 0],
+        "min_engine_version": [1, 19, 50]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "cc41ecda-aba4-468c-b4a9-ddec9e087fc0",
+            "version": [3, 0, 0]
+        }
+    ]
+}

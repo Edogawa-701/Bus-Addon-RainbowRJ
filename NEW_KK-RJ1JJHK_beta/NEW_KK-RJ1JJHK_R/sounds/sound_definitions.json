@@ -1,0 +1,51 @@
+{
+    "mtc043735_back": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/back"
+        ]
+    },
+    "mtc043735_sound1": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/sound1"
+        ]
+    },
+    "mtc043735_loop": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/loop"
+        ]
+    },
+    "mtc043735_open": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/door_open"
+        ]
+    },
+    "mtc043735_close": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/door_close"
+        ]
+    },
+    "mtc043735_break1": {
+        "category": "neutral",
+        "max_distance": 32.0,
+        "sounds": [
+            "sounds/mtc043735/break1"
+        ]
+    },
+    "mtc043735_break2": {
+        "category": "neutral",
+        "max_distance": 256.0,
+        "sounds": [
+            "sounds/mtc043735/break2"
+        ]
+    }
+}
